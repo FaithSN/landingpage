@@ -1,0 +1,236 @@
+body{
+background-color: #000000;
+}
+
+.Top{
+height:50px;
+}
+
+.menu-wrap {
+
+    width:100%;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+background-color: white;
+ font-family: 
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Lucida Sans Unicode';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition: opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+.Paramore{
+
+	float: left;
+	width:45%;
+	padding:10px;
+	margin: 20px;
+	margin-top: 10px;
+	background-color:rgba(153,0,76,0.2);
+	color: white; 
+	text-align: center;
+	font-family: "Fast In My Car";
+
+}
+.underp{
+	text-indent: 50px;
+	text-align: left;
+	font-family: "Comic Sans MS";
+}
+ .Echosmith{
+ 	height: 330px;
+ 	float: right;
+	width:45%;
+	padding:10px;
+	margin: 20px;
+	margin-top: 10px;
+	background-color:rgba(153,0,76,0.2);
+	color: white; 
+	text-align: center;
+	font-family: "Eurofurence Modified";
+
+}
+.undere{
+	text-indent: 50px;
+	text-align: left;
+	font-family: "Comic Sans MS";
+}
+.Daughter{
+	height: 355px;
+ 	float: left;
+	width:45%;
+	padding:10px;
+	margin: 20px;
+	margin-bottom: 50px;
+	background-color:rgba(153,0,76,0.2);
+	color: white; 
+	text-align: center;
+	font-family: verdana;
+	
+}
+
+.underd{
+	text-indent: 50px;
+	text-align: left;
+	font-family: "Comic Sans MS";
+}
+.UDD{
+ 	float: right;
+	width:45%;
+	padding:10px;
+	margin: 20px;
+	margin-bottom: 50px;
+	background-color:rgba(153,0,76,0.2);
+	color: white; 
+	text-align: center;
+	font-family: Arial;
+}
+
+.underu{
+	text-indent: 50px;
+	text-align: left;
+	font-family: "Comic Sans MS";
+}
+.Me{ background-color: rgba(0,51,102,0.2);
+	color: white;
+	font-family: Gabriola;
+	
+}
+.games{ background-color: rgba(0,51,102,0.2);
+	color: white;
+	font-family: Gabriola;
+	
+}
+.underme{
+	padding: 10px;
+	float: left;
+	width: 48%;
+	text-indent: 50px;
+	font-size: 20px;
+	background-color: rgba(0,76,153,0.2);
+	margin-bottom: 50px;
+}
+.undermetoo{
+		padding: 10px;
+	float: right;
+	width: 48%;
+	text-indent: 50px;
+	font-size: 20px;
+	background-color: rgba(0,76,153,0.2);
+	margin-bottom: 50px;
+
+}
+.pic{ 
+	width: 25%;
+	float: left;
+	margin-left: 150px;
+	
+}
+.bands{ 
+	background-color: rgba(0,51,102,0.2);
+	color: white;
+	font-family: Gabriola;
+	
+}
+.League{
+	padding: 10px;
+	width: 60%;
+	float: left;
+	background-color: rgba(0,102,0,0.2);
+	color: white;
+
+}
+.underl{
+	height:175px;
+	width: 60%;
+
+	float: left;
+	color: white;
+}
+
+a{
+ color: white
+}
+.sns{
+	color: white;
+	
+}
+.hey{
+	float: middle;
+	margin: 20px;
+	height: 200px;
+
+}
